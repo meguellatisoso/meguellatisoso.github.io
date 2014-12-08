@@ -1,5 +1,5 @@
 /* CSS Document */
-
+/*ancien fond #43509e*/
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 CUBE+ STYLESHEET
 by wedothewebs
@@ -56,6 +56,10 @@ p {
 	margin: 0 0 10px;
 	line-height: 24px;
 }
+
+a {
+	color:#43509e ;
+}
  a:hover:after span {
 }
 a {
@@ -88,7 +92,12 @@ img {
 	max-width: 100%;
 }
 *::-moz-selection {
- color: #00aeef;
+ color: #43509e;  /*#00aeef */
+}
+
+.wufoo{
+  padding-left: 150px;
+  padding-right: 150px;
 }
 /* GLOBAL STYLE END
 -------------------------------------------------- */
@@ -165,12 +174,12 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
 .header {
 	position: relative;
 	width: 100%;
-	background:  url(../images/headerbg.jpg)no-repeat center top fixed #34495e;
+	background:  url(../images/headerbg.jpg)no-repeat center top fixed #43509e; /* #34495e */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	border-bottom: 4px solid #3498db;
+	border-bottom: 4px solid #43509e;
 	/*-webkit-transform: translate3d(0, 0, 0);*/
 }
 /* Logo
@@ -199,7 +208,7 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
 	text-align: left;
 }
 .logo ._bg {
-	background: none repeat scroll 0 0 #3398da;
+	background: none repeat scroll 0 0 #43509e;
 	color: #FFFFFF;
 	float: left;
 	font-weight: 300;
@@ -209,7 +218,7 @@ a, #primary, .item_box .icon, .team, .team .social, .team .social a, .service_ic
 }
 .logo ._u {
 	float: left;
-	color: #3398da;
+	color: #43509e;
 	margin-left: -11px;
 	padding: 3px 0 7px;
 }
@@ -227,7 +236,7 @@ Main Nav Style
 	z-index: 100000;
 }
 #primary li:before {
-	border-right: 2px solid #3498DB;
+	border-right: 2px solid #0d101f;
 	content: "";
 	height: 24px;
 	position: absolute;
@@ -249,10 +258,10 @@ Main Nav Style
 	display: block;
 	text-align: right;
 	font-size: 11px;
-	color: #69b4e4;
+	color: #0d101f; /*ancien #69b4e4 */
 }
 #primary li a:hover, nav#primary li.active a {
-	color: #34495e;
+	color: #0d101f; /* #34495e */
 }
 #primary a:before {
 	float: right;
@@ -262,13 +271,13 @@ Main Nav Style
 	font-family: 'FontAwesome';
 	content: "\f10c";
 	font-size: 14px;
-	color: #3498db;
+	color: #0d101f; /* rond nav */
 }
 #primary li.active a:before {
 	content: "\f111";
 }
 a.next-section {
-	background: none repeat scroll 0 0 #3498DB;
+	background: none repeat scroll 0 0 #43509e;
 	bottom: 0;
 	color: #FFFFFF;
 	font-size: 18px;
@@ -282,7 +291,7 @@ a.next-section {
 }
 a.top-section {
 	float: left;
-	background: none repeat scroll 0 0 #3498DB;
+	background: none repeat scroll 0 0 #43509e;
 	left: 50%;
 	top: 0;
 	color: #FFFFFF;
@@ -303,7 +312,7 @@ a.top-section {
 }
 .navbar-inverse .btn-navbar {
 	margin: 0;
-	background: #005a88;
+	background: #005a88; /*ancien #005a88*/
 	border: none;
 }
 .navbar-inverse .btn-navbar:hover, .navbar-inverse .btn-navbar:focus, .navbar-inverse .btn-navbar:active, .navbar-inverse .btn-navbar.active, .navbar-inverse .btn-navbar.disabled, .navbar-inverse .btn-navbar[disabled] {
@@ -315,7 +324,7 @@ a.top-section {
 	background-color: #0084c8 \9;
 }
 .common_btn{
-	background: none repeat scroll 0 0 #3498db;
+	background: none repeat scroll 0 0 #43509e;
 	border: 0 none;
 	color: #fff;
 	cursor: pointer;
@@ -383,7 +392,7 @@ a.top-section {
 }
 #about .head, #services .head, #portfolio .head, #blog .head, #priceplans .head, #contact .head {
 	position: relative;
-	background: #3498db;
+	background: #43509e;
 	padding: 55px 0;
 	min-height: 41px;
 	color: #fff;
@@ -439,17 +448,17 @@ a.top-section {
 	background-position: center bottom;
 }
 .item_box .icon.user {
-	background-image: url(../images/user.png);
+	background-image: url(../images/live.png);
 }
 .item_box .icon.rocket {
-	background-image: url(../images/rocket.png);
+	background-image: url(../images/journal.png);
 }
 .item_box .icon.hand {
 	background-image: url(../images/hand.png);
 }
 .item_box h3 {
 	margin: 70px 0 20px;
-	color: #3498db;
+	color: #43509e;
 	font-weight: 300;
 }
 .item_box p {
@@ -458,7 +467,7 @@ a.top-section {
 	line-height: 22px;
 }
 .item_box:hover {
-	border-color: #3498db;
+	border-color: #43509e;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	TEAM SECTION
@@ -510,7 +519,7 @@ a.top-section {
 	line-height: 20px;
 }
 .team .social ul li a:hover {
-	color: #3498db;
+	color: #43509e;
 }
 .team .member_info {
 	position: relative;
@@ -527,10 +536,10 @@ a.top-section {
 .team .member_info i {
 	font-size: 14px;
 	font-style: italic;
-	color: #3398da;
+	color: #43509e;
 }
 .team:hover .member_info {
-	background: #3498db;
+	background: #43509e;
 	color: #fff;
 }
 .team:hover .member_info h4, .team:hover .member_info i {
@@ -644,7 +653,7 @@ a.top-section {
 .service_box h4 {
 	font-size: 20px;
 	font-weight: 300;
-	color: #3498db;
+	color: #43509e;
 	text-transform: uppercase;
 }
 .service_hover {
@@ -653,7 +662,7 @@ a.top-section {
 	height: 100%;
 	top: 215px;
 	left: 0;
-	background: #3498db;
+	background: #43509e;
 	color: #fff;
 }
 .service_hover p, .service_hover a {
@@ -828,7 +837,7 @@ a.top-section {
 	font-family: 'FontAwesome';
 	font-size: 18px;
 	color: #fff;
-	background: #3498DB;
+	background: #43509e;
 	padding: 20px;
 	position: absolute;
 	top: 50%;
@@ -1024,7 +1033,7 @@ a.top-section {
 	background: #34495e;
 }
 .planContainer .button:hover, #plans .team .button {
-	background: #3498db;
+	background: #43509e;
 }
 .planContainer .button a {
 	color: #fff;
@@ -1035,7 +1044,7 @@ a.top-section {
 	display: block;
 }
 #plans .team .title {
-	background: #3498db url(../images/new.png) right top no-repeat;
+	background: #43509e url(../images/new.png) right top no-repeat;
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	PARALLAX 04
@@ -1114,7 +1123,7 @@ a.top-section {
 	padding: 10px 20px;
 	margin: 10px 0;
 	float: right;
-	background: #3498db;
+	background: #43509e;
 	color: #fff;
 }
 #contact input[type="submit"]:hover, #contact .submit:hover {
@@ -1192,7 +1201,7 @@ a.top-section {
 .footer_top {
 	float: left;
 	width: 100%;
-	background: #3498db;
+	background: #43509e;
 }
 .footer_top .content {
 	float: left;
@@ -1224,7 +1233,7 @@ a.top-section {
 }
 .foot_logo ._u {
 	float: left;
-	color: #3398da;
+	color: #43509e;
 	margin-left: -11px;
 	padding: 3px 0 7px;
 }
@@ -1440,7 +1449,7 @@ parallax2
 	  padding-left: 0;
 	  padding-right: 0;
 	}
-	#primary .navbar-collapse{
+	#primary .navbar {
 		padding-left: 0;
 		padding-right: 0;
 		border-top: 0;

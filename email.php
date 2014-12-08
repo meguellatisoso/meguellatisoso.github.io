@@ -10,11 +10,11 @@ if($_POST){
 
 	
 	// To send HTML mail
-	$to = "info@spondonit.com";
+	$to = "hello@studentsatleweb.com";
 
 	// subject
 
-	$subject = 'From Cube+';
+	$subject = 'About Students @ LeWeb';
 
 	// To send HTML mail, the Content-type header must be set
 
